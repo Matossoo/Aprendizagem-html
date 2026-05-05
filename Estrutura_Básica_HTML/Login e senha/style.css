@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    height: 100vh;
+    background-color: #8fa79b;
+
+    display: flex;
+    justify-content: center;   
+    align-items: center;    
+
+    font-family: Arial, sans-serif;
+}
+
+.card{
+    background-color: white;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+}
+
+.titulo{
+    background-color: #1e6b8b;
+    color: white;
+    padding: 15px;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    background-color: #eee;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    background-color: #1e6b8b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #15546d;
+}

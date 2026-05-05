@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color: rgb(175, 101, 224);
+font-family: "Roboto Condensed", sans-serif;
+color: #1e293b; /* Cor padrão do texto */
+font-size: 16px; /* Tamanho padrão da fonte */
+line-height: 1.7; /* Espaçamento entre linhas */
+
+}
+
+.container {
+
+    max-width: 1080px; /* Define a largura máxima da página */
+    margin: 40px auto; /* Centraliza horizontalmente e dá espaço de cima/baixo*/
+    padding: 40px; /* Espaçamento interino */
+    background-color: #ffffffff; /* Fundo branco */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08); /* Sombra leve*/
+
+}
+
+nav {
+
+    background-color: #1c921c; /* Cor de fundo */
+    padding: 14px; /* Espaçamento interno*/
+    border-radius: 10px; /* Cantos arredondados*/
+    margin-bottom: 30px; /* Espaço abaixo do menu */
+    text-align: center; /* Centraliza os links */
+
+}
+
+nav a {
+
+    color: #ffffffff; /* Cor do texto (branco) */
+    text-decoration: none; /* Remove sublinhado */
+    margin: 0 10px; /* Espaço entre os links */
+    font-weight: bold; /* Texto em negrito */
+
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+
+}
+
+h1 {
+
+    font-size: 40px; /* Tamanho grande */
+    color: #1e40af; /* Azul escuro */
+    border-left: 5px solid #f59e0b; /* Barra decorativa lateral */
+    padding-left: 10px; /* Espaço entra a barra e o texto */
+    margin-bottom: 10px; /* Espaço abaixo */
+
+}
+
+h2 {
+    color: #2563eb;  /* Azul */
+    margin-top: 50px;  /* Espaço acima */
+}
+
+h3 {
+    color: #64748b; /* Cinza */
+    margin-top: 15px; /* Espaço acima */
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+strong {
+    color: #1e40af; /* Azul escuro */
+}
+
+em {
+    color: #a12424
+}
+
+mark {
+    background-color: #ffa200;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+a {
+    color: #afad1e;
+}
+
+a:hover {
+    color: #ffa200;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 50%;
+    border: 3px solid #1e40af;
+    margin: 15px 0;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Formulário */
+form {
+
+    background-color: #d4d1d3; /* Fundo claro */
+    border: 1px solid rgd(94, 94, 94); /*  */
+    border-radius: 10px; /*  */
+    padding: 20px; /*  */
+    margin-top: 20px; /*  */
+
+}
+
+/*  */
+label {
+
+    font-weight: bold; /* Para ficar em negrito */
+
+}
+
+input, textarea, select {
+
+    width: 100%; /* Ocupar todo espaço dentro do formulário */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(103, 103, 103);
+    border-radius: 10px;
+
+}
+
+button {
+
+    background-color: #1e40af;
+    color: white;
+    padding: 10px, 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+button:hover {
+    background-color: #afad1e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Cabeçalho da tabela */
+th {
+
+    background-color: #1e293b;
+    color: white;
+
+
+}
+
+td {
+
+    padding: 10px;
+    border: 1px solid #1e293b;
+
+}
+
+video, audio, iframe {
+
+    margin: 15px 0;
+    
+
+}
+
+pre {
+    background-color: #a12424;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+code {
+    color: #ffffff;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+    font-size:14px;
+}
